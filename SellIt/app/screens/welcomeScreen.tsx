@@ -9,12 +9,12 @@ function WelcomeScreen(props: ViewProps) {
             style={styles.Background}
         >
             <View style={styles.logoContainer}>
-                <Image style={styles.logo} source={require('../../assets/images/react-logo.png')} />
+                <Image style={styles.logo} source={require('../../assets/images/favicon.png')} />
                 <Text>Sell what you don't need</Text>
             </View>
 
             <View style={styles.loginButton}></View>
-            <View style={styles.registerButton}></View>
+            <View style={styles.registerButton}></View  >
         </ImageBackground>
     );
 }
@@ -30,8 +30,6 @@ const styles = StyleSheet.create({
         height: 70,
         backgroundColor: '#fc5c65',
         justifyContent: "flex-end",
-        //alignItems: 'center',
-        //borderRadius: 10,
     },
     registerButton: {
         width: "100%",
